@@ -169,6 +169,7 @@ public:
         vSeeds.push_back(CDNSSeedData("argentum.cc",            "seed.argentum.cc"));
         vSeeds.push_back(CDNSSeedData("argentum.cc",         "dnsseed.argentum.cc"));
         vSeeds.push_back(CDNSSeedData("argentumcoin.cc", "dnsseed.argentumcoin.cc"));
+	vSeeds.push_back(CDNSSeedData("chainetics.com", "arg.chainetics.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,23);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
